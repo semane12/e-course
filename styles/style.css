@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%),url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 300px;
+    float: left;
+    height: 70px;
+    margin-left: -50px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 40px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 100px;
+    float: left;
+    height: 70px;
+}
+.menu ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+.menu ul li{
+    list-style-type: none;
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 18px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s case inout;
+}
+.menu ul li a:hover{
+    color: #ff7200;
+    cursor: pointer;
+}
+
+
+
+
+.logmenu{
+    width: 100%;
+    height: 70px;
+    background-image: linear-gradient(rgba(0,0,50,0.7),rgba(0,0,50,0.7),url(images/img4-1.jpg));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.logmenu ul{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logmenu ul li{
+    list-style-type: none;
+    margin-left: 40px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+.logmenu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s case inout;
+}
+.logmenu ul li a:hover{
+    color: #ff7200;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.cont{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+.cont .para{
+    padding-left: 500px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: 15px;
+}
+.cont h3{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    padding-left: 400px;
+    margin-top: 18%;
+    margin-top: 205px;
+    letter-spacing: 0px;
+    padding-bottom: 30px;
+    animation: animate 1s infinite;
+}
+.cont span{
+    color: #ff7200;
+}
+.cont .learn{
+    width: 160px;
+    height: 40px;
+    background-color: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 550px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cont .learn a{
+    text-decoration: none;
+    color: black;
+    transition: 0.4s ease-in-out;
+}
+.learn:hover{
+    background-color: #fff;
+}
+
+
+
+.active, .menu:hover ul li a{
+    background-color: none;
+    border-radius: 3px;
+}
+
+
+
+.menu ul li:hover{
+    background-color: #797575;
+    cursor: pointer;
+}
+.active, .menu:hover ul{
+    background-color: none;
+    border-radius: 10px;
+    box-sizing: content-box;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+.menu ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin-left:  70px;
+    padding-left: 0px;
+    background-color: #abb0b4;
+    border-radius: 20px;
+    text-align: justify;
+}
+.menu ul li:hover .sub-menu-1 ul li{
+    width: auto;
+    margin: 0%;
+    padding: 10px;
+    border-bottom: 0px;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    vertical-align: left;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+/*---  footer ---*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 60px 0;
+    color: #fff;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.icons .fa{
+    color: #f8f4f4;
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 0px;
+}
+.icons .fa:hover{
+    background-color: #5456c7;
+}
+
+
+
+
+* {box-sizing: border-box}
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #162938;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 15px;
+}
+
+button:hover {
+  opacity:10;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+
+.logo img{
+    image-resolution: 30px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
