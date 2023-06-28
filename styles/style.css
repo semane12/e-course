@@ -63,42 +63,6 @@
 
 
 
-.logmenu{
-    width: 100%;
-    height: 70px;
-    background-image: linear-gradient(rgba(0,0,50,0.7),rgba(0,0,50,0.7),url(images/img4-1.jpg));
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
-.logmenu ul{
-    float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.logmenu ul li{
-    list-style-type: none;
-    margin-left: 40px;
-    margin-top: 27px;
-    font-size: 14px;
-}
-.logmenu ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-family: Arial;
-    font-weight: bold;
-    transition: 0.4s case inout;
-}
-.logmenu ul li a:hover{
-    color: #ff7200;
-    cursor: pointer;
-}
-
-
-
-
 
 
 .cont{
