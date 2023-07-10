@@ -191,3 +191,9 @@ button {
 .login-register p a:hover{
     text-decoration: underline;
 }
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
